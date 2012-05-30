@@ -13,7 +13,7 @@
       <plugin>
         <groupId>fr.rmannibucau</groupId>
         <artifactId>diagram-generator-maven-plugin</artifactId>
-        <version>0.0.1-SNAPSHOT</version>
+        <version>0.0.1-20120530</version>
         <executions>
           <execution>
             <id>pack</id>
@@ -41,7 +41,7 @@
           <dependency>
             <groupId>fr.rmannibucau</groupId>
             <artifactId>camel-loader</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
+            <version>0.0.1-20120530</version>
           </dependency>
         </dependencies>
       </plugin>

@@ -62,3 +62,8 @@ Note
 This plugin suppose you don't have cycles in your diagram and you have each endpoints only once. If you
 use the same endpoints twice try to change a bit its name during the generation.
 
+Nestor Notes
+===========
+I have forked this plugin just to allow releasing it to our maven repo. Here is the command I used for today:
+  find ./ -name "*.xml" -print0 | xargs -0 perl -pi -e 's/0.0.1-SNAPSHOT/0.0.1-20120530/g' 
+
